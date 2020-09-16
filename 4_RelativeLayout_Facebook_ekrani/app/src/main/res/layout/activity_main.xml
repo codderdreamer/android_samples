@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/person"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/person"
+        android:layout_marginRight="20dp"
+        />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mehmet Ali Aras"
+        android:layout_toRightOf="@+id/person"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#273c92"
+        />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_toRightOf="@id/person"
+        android:text="19 dk."
+        android:layout_marginRight="5dp"
+        />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/dunya"
+        android:layout_below="@id/name"
+        android:layout_toRightOf="@id/time"
+        />
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Çok güzel bir resim..."
+        android:layout_below="@id/person"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@drawable/image"
+        android:layout_below="@id/text"
+        android:layout_marginTop="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/begen"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/image"
+        android:background="@drawable/begen"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:id="@+id/begentext"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/image"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="6dp"
+        android:layout_toRightOf="@id/begen"
+        android:text="Beğen"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/yorum"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/image"
+        android:layout_toRightOf="@id/begentext"
+        android:background="@drawable/yorum"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:id="@+id/yorumtext"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/image"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="6dp"
+        android:layout_toRightOf="@id/yorum"
+        android:text="Yorum yap"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/paylas"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/image"
+        android:layout_toRightOf="@id/yorumtext"
+        android:background="@drawable/paylas"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:id="@+id/paylastext"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/image"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="6dp"
+        android:layout_toRightOf="@id/paylas"
+        android:text="Paylas"
+        android:textSize="20dp" />
+
+
+
+
+
+</RelativeLayout>

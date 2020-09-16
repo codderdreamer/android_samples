@@ -101,7 +101,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="#5352ed"
-                android:text="PASTA"
+                android:text="MEYVE"
                 android:gravity="center"
                 android:textSize="20dp"
                 android:textStyle="bold"
