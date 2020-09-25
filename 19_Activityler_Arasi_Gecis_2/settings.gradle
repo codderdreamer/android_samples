@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "19_Activityler_Arasi_Gecis_2"
