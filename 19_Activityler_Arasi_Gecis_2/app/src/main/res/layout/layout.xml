@@ -4,8 +4,9 @@
     android:orientation="vertical"
     android:background="@android:color/holo_purple"
     android:id="@+id/anaLayout"
+    android:clickable="true"
     android:layout_margin="10dp"
-    android:layout_height="wrap_content">
+    android:layout_height="100dp">
 
     <TextView
         android:id="@+id/isim"
